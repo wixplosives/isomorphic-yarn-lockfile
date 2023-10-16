@@ -1,14 +1,16 @@
 {
   "name": "@wixc3/isomorphic-yarnpkg-lockfile",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "jest"
   },
   "description": "The isomorphic parser for Yarn lockfiles.",
   "main": "index.js",
+  "types": "index.d.ts",
   "files": [
     "index.js",
+    "index.d.ts",
     "dist/**"
   ],
   "repository": "https://github.com/wixplosives/isomorphic-yarn-lockfile/tree/isomorphic-lib",
