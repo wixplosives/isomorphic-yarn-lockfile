@@ -6,14 +6,14 @@
     "test": "jest"
   },
   "description": "The isomorphic parser for Yarn lockfiles.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "index.d.ts",
   "files": [
     "index.js",
     "index.d.ts",
     "dist/**"
   ],
-  "repository": "https://github.com/wixplosives/isomorphic-yarn-lockfile/tree/isomorphic-lib",
+  "repository": "https://github.com/wixplosives/isomorphic-yarn-lockfile",
   "license": "BSD-2-Clause",
   "dependencies": {
     "js-yaml": "^4.1.0"
